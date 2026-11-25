@@ -8,7 +8,8 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-const ENTRY = 'My landlord raised the rent because the building has character. The character is a raccoon with a key.';
+const ENTRY =
+  'My landlord raised the rent because the building has character. The character is a raccoon with a key.';
 
 const MAX_CHARS = 200;
 
